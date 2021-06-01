@@ -33,6 +33,7 @@ public class CardTrick
          int ranCard = getRandomNumber(1, 13);
          c.setValue(ranCard);
          c.setSuit(Card.SUITS[ran]);
+         magicHand[i] = c;
          //c.setValue(insert call to random number generator here)
          //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
       }
