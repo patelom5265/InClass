@@ -68,8 +68,9 @@ public class CardTrick
       else {
          System.out.println("Your card is not present in the magic hand");
       }
+      Card luckyCard=new Card();
+      luckyCard.setSuit("Spades");
+      luckyCard.setValue(6);
    }
-   Card luckyCard=new Card();
-   luckyCard.setSuit("Spades");
-   luckyCard.setValue(6);
+   
 }
