@@ -65,7 +65,7 @@ public class CardTrick
          System.out.println("Your card " + usrCard.getValue() + "of" + usrCard.getSuit() + "is present in magic hand");
       }
       else {
-         System.out.println("Your card is not present in the magic hand")
+         System.out.println("Your card is not present in the magic hand");
       }
    }
 
